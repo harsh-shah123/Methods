@@ -1,0 +1,56 @@
+what is npm run dev
+npm run dev is a script defined in the package. json file of a project. 
+It is typically used to start a development server that watches for file changes and automatically reloads the application. 
+This provides a seamless and efficient development experience.
+
+The Options API syntax in Vue 3 involves creating a component's logic within an options object that's divided into groups of properties. 
+The main options in the Options API are:
+Data: Defines reactive properties, such as variables and states
+Methods: Declares functions that change states and trigger updates
+Computed: Declares getter methods for processing and returning reactive data
+Lifecycle Hooks: Built-in methods that perform functions at different stages of a component's life
+
+Composition API is a set of APIs that allows us to author Vue components using imported functions instead of declaring options. 
+It is an umbrella term that covers the following APIs:
+
+Reactivity API, 
+e.g. ref() and reactive(), that allows us to directly create reactive state, computed state, and watchers.
+
+Lifecycle Hooks,
+e.g. onMounted() and onUnmounted(), that allow us to programmatically hook into the component lifecycle.
+
+Dependency Injection, 
+i.e. provide() and inject(), that allow us to leverage Vue's dependency injection system while using Reactivity APIs.
+
+Composiiton API :-
+the Composition API is a new way of building components in Vue 3.0 that was introduced to address some of the limitations of the Options API.
+It allows developers to use a functional, reactive programming style to build components,
+and it offers a more flexible and expressive way of defining component behavior.
+
+Option API :-
+The Options API is the traditional way of building Vue components, 
+and it has been the primary method for building components in Vue since its inception. 
+It involves using a set of options, such as data, methods, and computed properties, to define the behavior and state of a component.
+
+Advantags & disadvantags
+
+Structure
+One of the main benefits of the Options API is that it is simple and easy to understand.
+It follows a clear, declarative pattern that is familiar to many developers, and it is well-documented in the Vue documentation. 
+This makes it a good choice for beginners who are just starting out with Vue.
+
+Reusability
+Another limitation of the Options API is that it can be inflexible when it comes to sharing logic between components. 
+If you want to reuse a piece of logic across multiple components, you need to either copy and paste the code or abstract it into a mixin. 
+This can make it difficult to manage code dependencies and maintain code quality as the size of a project grows.
+
+The Composition API addresses these issues by providing a more flexible and expressive way of defining component behavior through composables. 
+It allows developers to use a functional, reactive programming style to build components, which makes it easier to reuse logic and manage code dependencies.
+
+for more details prefar this page
+https://vueschool.io/articles/vuejs-tutorials/options-api-vs-composition-api/
+
+flowbite UI
+Flowbite is an open-source library of UI components based on the utility-first Tailwind CSS framework featuring dark mode support, 
+a Figma design system, templates, and more.
+
